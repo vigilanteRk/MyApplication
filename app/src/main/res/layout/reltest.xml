@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main_background"
+    tools:ignore="ContentDescription"
     >
 
     <TextView
@@ -209,7 +210,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="271dp"
+        android:layout_marginBottom="265dp"
         android:background="@color/main_background"
         android:text="SUBMIT"
         android:textColor="@color/main_text" />
