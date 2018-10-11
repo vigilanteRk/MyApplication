@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:weightSum="3" >
+
+    <TextView
+    android:id="@+id/textViews"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="@string/Full_Name"
+    tools:background="#FDFEFE"
+    tools:textColor="#857777" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="343dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="116dp"
+        android:text="@string/Confirm_Password"
+        android:textSize="14sp"
+        app:autoSizeTextType="uniform"
+        tools:background="#FDFEFE"
+        tools:ignore="HardcodedText"
+        tools:textColor="#857777" />
+</linarLayout>
+
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:visibility="visible"-->
+    <!--tools:context=".MainActivity"-->
+    <!--tools:background="#77B2ED"-->
+    <!--android:orientation="vertical"-->
+    <!--&gt;-->
+    <!--&lt;!&ndash;android:paddingTop="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:paddingBottom="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:paddingLeft="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:paddingRight="10dp"&ndash;&gt;-->
+
+    <!--&lt;!&ndash;tools:ignore="ExtraText">&ndash;&gt;-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView8"-->
+        <!--android:layout_width="375dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="343dp"-->
+        <!--android:layout_marginEnd="115dp"-->
+        <!--android:layout_marginRight="116dp"-->
+        <!--android:text="@String/Confirm Password"-->
+        <!--android:textSize="14sp"-->
+        <!--app:autoSizeTextType="uniform"-->
+        <!--tools:background="#FDFEFE"-->
+        <!--tools:ignore="HardcodedText"-->
+        <!--tools:textColor="#857777" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView7"-->
+        <!--android:layout_width="375dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="279dp"-->
+        <!--android:layout_marginEnd="114dp"-->
+        <!--android:layout_marginRight="116dp"-->
+        <!--android:text="     Password"-->
+        <!--android:textSize="14sp"-->
+        <!--app:autoSizeTextType="uniform"-->
+        <!--tools:background="#FDFEFE"-->
+        <!--tools:ignore="HardcodedText"-->
+        <!--tools:textColor="#857777" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView6"-->
+        <!--android:layout_width="375dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="215dp"-->
+        <!--android:layout_marginEnd="116dp"-->
+        <!--android:layout_marginRight="116dp"-->
+        <!--android:text="     Email"-->
+        <!--android:textSize="14sp"-->
+        <!--app:autoSizeTextType="uniform"-->
+        <!--tools:background="#FDFEFE"-->
+        <!--tools:ignore="HardcodedText"-->
+        <!--tools:textColor="#857777" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView1"-->
+        <!--android:layout_width="375dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="87dp"-->
+        <!--android:layout_marginEnd="119dp"-->
+        <!--android:layout_marginRight="116dp"-->
+        <!--android:text="     First Name"-->
+        <!--android:textSize="14sp"-->
+        <!--app:autoSizeTextType="uniform"-->
+        <!--tools:background="#FDFEFE"-->
+        <!--tools:ignore="HardcodedText"-->
+        <!--tools:textColor="#857777" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView5"-->
+        <!--android:layout_width="375dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_marginTop="151dp"-->
+        <!--android:layout_marginEnd="116dp"-->
+        <!--android:layout_marginRight="116dp"-->
+        <!--android:text="     Last Name"-->
+        <!--android:textSize="14sp"-->
+        <!--app:autoSizeTextType="uniform"-->
+        <!--tools:background="#FDFEFE"-->
+        <!--tools:ignore="HardcodedText"-->
+        <!--tools:textColor="#857777" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editText"-->
+        <!--android:layout_width="314dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginStart="144dp"-->
+        <!--android:layout_marginLeft="144dp"-->
+        <!--android:layout_marginBottom="254dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text=" Allready having an account yet? Login"-->
+        <!--tools:textColor="#ffffff" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="189dp"-->
+        <!--android:text="Submit" />-->
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_facebook"-->
+        <!--style="@style/Widget.AppCompat.Button"-->
+        <!--android:layout_width="375dp"-->
+        <!--android:layout_height="61dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="111dp"-->
+        <!--android:layout_marginLeft="111dp"-->
+        <!--android:layout_marginTop="573dp"-->
+        <!--android:text="Login with facebook"-->
+        <!--tools:background="#32629A"-->
+        <!--tools:textColor="#ffffff" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_google"-->
+        <!--style="@style/Widget.AppCompat.Button"-->
+        <!--android:layout_width="365dp"-->
+        <!--android:layout_height="66dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="122dp"-->
+        <!--android:layout_marginLeft="122dp"-->
+        <!--android:layout_marginTop="673dp"-->
+        <!--android:text="Login with Google +"-->
+        <!--tools:background="#E03E3E"-->
+        <!--tools:textColor="#ffffff" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView6"-->
+        <!--android:layout_width="43dp"-->
+        <!--android:layout_height="46dp"-->
+        <!--android:layout_alignStart="@+id/btn_facebook"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="-3dp"-->
+        <!--android:layout_marginTop="90dp"-->
+        <!--app:srcCompat="@drawable/sharp_person_black_18dp" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView7"-->
+        <!--android:layout_width="43dp"-->
+        <!--android:layout_height="46dp"-->
+        <!--android:layout_alignStart="@+id/btn_facebook"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginStart="-1dp"-->
+        <!--android:layout_marginTop="156dp"-->
+        <!--app:srcCompat="@drawable/sharp_person_black_18dp" />-->
+
+
+    <!--<linarLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:gravity="center_horizontal"-->
+    <!--android:weightSum="3" >-->
+    <!--<TextView-->
+        <!--android:id="@+id/textViews"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:text="     Last Name"-->
+        <!--tools:background="#FDFEFE"-->
+        <!--tools:textColor="#857777" />-->
+    <!--</linarLayout>-->
+
+
+
+<!--</RelativeLayout>-->
