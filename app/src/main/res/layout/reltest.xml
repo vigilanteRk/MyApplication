@@ -261,15 +261,15 @@
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="25dp"
+        android:layout_height="40dp"
         android:layout_alignBottom="@+id/eight"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="159dp"
-        android:layout_marginLeft="159dp"
-        android:layout_marginBottom="14dp"
-        app:srcCompat="@drawable/outline_settings_black_18dp" />
+        android:layout_marginStart="155dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginBottom="3dp"
+        app:srcCompat="@drawable/google" />
 
 
 </RelativeLayout>
