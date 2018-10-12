@@ -200,7 +200,7 @@
         android:layout_marginTop="18pt"
         android:gravity="center"
         android:color="@color/main_background"
-        android:text="Allready have an account yet ? Login"
+        android:text="@string/HaveAccount"
         android:textColor="@color/main_text"
         android:textSize="15sp" />
 
@@ -212,7 +212,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="265dp"
         android:background="@color/main_background"
-        android:text="SUBMIT"
+        android:text="@string/Submit"
         android:textColor="@color/main_text" />
 
     <TextView
@@ -226,7 +226,7 @@
         android:layout_marginTop="68pt"
         android:gravity="center"
         android:background="@color/facebook_text"
-        android:text="   Login with facebook"
+        android:text="@string/facebook"
         android:textColor="@color/main_text"
         android:textSize="28sp" />
 
@@ -253,7 +253,7 @@
         android:layout_marginTop="99pt"
         android:gravity="center"
         android:background="@color/google_text"
-        android:text="   Sign with Google +"
+        android:text="@string/google"
         android:textColor="@color/main_text"
         android:textSize="28sp" />
 

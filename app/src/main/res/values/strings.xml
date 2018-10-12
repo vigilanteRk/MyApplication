@@ -2,7 +2,18 @@
     <string name="app_name">My Application</string>
     <string name="Full_Name">Full Name</string>
     <string name="Last_Name">Last Name</string>
+    <string name="Register">Register</string>
     <string name="Email">Email</string>
     <string name="Password">Password</string>
     <string name="Confirm_Password">_Password</string>
+    <string name="Forgot_Password">Forgot Password ?</string>
+    <string name="Submit">Submit</string>
+    <string name="Login">LOGIN</string>
+    <string name="Skip">SKIP</string>
+    <string name="RememberMe">Remember Me </string>
+    <string name="HaveAccount">Allready have an account yet ? Login</string>
+    <string name="EmailFull_Name">Id/Full Name</string>
+    <string name="facebook">Login with facebook</string>
+    <string name="google">Login with google +</string>
+
 </resources>

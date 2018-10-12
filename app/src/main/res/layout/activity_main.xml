@@ -1,211 +1,211 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:visibility="visible"
-    tools:background="#77B2ED"
-    tools:ignore="ExtraText">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:ignore="ContentDescription"
+    >
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="288dp"
+        android:id="@+id/center"
+        android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="180dp"
-        android:layout_marginEnd="152dp"
-        android:layout_marginRight="152dp"
-        android:text="     Email"
-        android:textSize="14sp"
-        app:autoSizeTextType="uniform"
-        tools:background="#FDFEFE"
-        tools:ignore="HardcodedText"
-        tools:textColor="#857777" />
+        android:layout_centerInParent="true"
+        android:layout_marginTop="6pt"
+        android:gravity="center"
+        android:background="@color/main_text"
+        android:text="@string/Forgot_Password"
+        android:textColor="@color/main_background"
+        android:textSize="28sp" />
+
+
 
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="288dp"
+        android:id="@+id/second"
+        android:layout_width="60dp"
         android:layout_height="50dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginTop="249dp"
-        android:layout_marginEnd="151dp"
-        android:layout_marginRight="151dp"
-        android:text="     Password"
-        android:textSize="12sp"
-        app:autoSizeTextType="uniform"
-        tools:background="#FDFEFE"
-        tools:ignore="HardcodedText"
-        tools:textColor="#857777" />
+        android:layout_above="@id/button2"
+        android:layout_alignLeft="@id/button2"
+        android:layout_marginTop="6pt"
+        android:background="#FDFEFE"
+        android:gravity="center"
+        android:textSize="28sp" />
 
-    <Button
-        android:id="@+id/btnPauseService2"
-        android:layout_width="47dp"
-        android:layout_height="32dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="161dp"
-        android:layout_marginLeft="161dp"
-        android:layout_marginTop="312dp"
-        tools:background="#ffffff" />
 
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="217dp"
-        android:layout_marginLeft="217dp"
-        android:layout_marginTop="319dp"
-        android:text="Remember Me"
-        tools:ignore="HardcodedText" />
+        android:id="@+id/third"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/second"
+        android:layout_alignLeft="@id/second"
+        android:layout_marginTop="6pt"
+        android:background="#FDFEFE"
+        android:gravity="center"
+        android:text="@string/Password"
+        android:textSize="28sp" />
 
-    <Button
-        android:id="@+id/btnPauseService"
-        android:layout_width="127dp"
-        android:layout_height="59dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="161dp"
-        android:layout_marginLeft="161dp"
-        android:layout_marginTop="354dp"
-        android:text="LOGIN"
-        tools:background="#77B2ED"
-        tools:textColor="#ffffff" />
-
-
-    <Button
-        android:id="@+id/btnStopService"
-        android:layout_width="127dp"
-        android:layout_height="59dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="323dp"
-        android:layout_marginLeft="323dp"
-        android:layout_marginBottom="412dp"
-        android:text="SKIP"
-        tools:background="#77B2ED"
-        tools:textColor="#ffffff" />
-
-
-
-    <Button
-        android:id="@+id/btnPauseService3"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="290dp"
-        android:layout_height="63dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="421dp"
-        android:text="FORGOT PASWORD ?"
-        tools:background="#ffffff"
-        tools:ignore="HardcodedText"
-        tools:textColor="#77B2ED" />
-
-
-    <Button
-        android:id="@+id/btnPauseService5"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="290dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="160dp"
-        android:layout_marginLeft="160dp"
-        android:layout_marginTop="492dp"
-        android:background="@drawable/my_button_bg"
-        android:text="Register"
-        android:textColor="#ffffff"
-        tools:textColor="#ffffff" />
-
-
-    <Button
-        android:id="@+id/btnPauseService4"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="290dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="159dp"
-        android:layout_marginLeft="159dp"
-        android:layout_marginTop="555dp"
-        android:text="Login with facebook"
-        tools:background="#32629A"
-        tools:textColor="#ffffff" />
-
-    <Button
-        android:id="@+id/btnPauseService6"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="290dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="158dp"
-        android:layout_marginLeft="158dp"
-        android:layout_marginTop="620dp"
-        android:text="Login with Google +"
-        tools:background="#E03E3E"
-        tools:textColor="#ffffff" />
-
-
-    <corners android:radius="5"
-    tools:textColor="#857777" />
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/third"
+        android:layout_alignLeft="@id/third"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="6pt"
+        android:layout_marginBottom="15dp"
+        android:background="#FDFEFE"
+        android:gravity="center"
+        android:text="@string/EmailFull_Name"
+        android:textSize="28sp" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="32dp"
-        android:layout_height="33dp"
-        android:layout_alignTop="@+id/textView"
+        android:id="@+id/imageView2"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="168dp"
-        android:layout_marginLeft="168dp"
-        android:layout_marginTop="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="200dp"
         app:srcCompat="@drawable/outline_phonelink_lock_black_18dp" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="42dp"
-        android:layout_height="46dp"
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="164dp"
-        android:layout_marginLeft="164dp"
-        android:layout_marginTop="187dp"
-        app:srcCompat="@drawable/sharp_person_black_18dp" />
+        android:layout_marginStart="203dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="203dp"
+        app:srcCompat="@drawable/dash" />
+
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/btnPauseService4"
+        android:id="@+id/imageView1"
+        android:layout_width="34dp"
+        android:layout_height="36dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="138dp"
-        android:layout_marginLeft="138dp"
-        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="124dp"
+        app:srcCompat="@drawable/sharp_person_black_18dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginLeft="203dp"
+        android:layout_marginTop="128dp"
+        app:srcCompat="@drawable/dash" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="127dp"
+        android:layout_height="59dp"
+        android:layout_above="@id/center"
+        android:layout_alignLeft="@id/center"
+        android:layout_marginTop="6pt"
+        android:text="@string/Login"
+        tools:background="#77B2ED"
+        tools:textColor="#ffffff" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="127dp"
+        android:layout_height="59dp"
+        android:layout_above="@id/center"
+        android:layout_alignLeft="@id/center"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="6pt"
+        android:text="@string/Skip"
+        tools:background="#77B2ED"
+        tools:textColor="#ffffff" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="322dp"
+        android:background="@color/main_background"
+        android:text="@string/Register"
+        android:textColor="@color/main_text" />
+
+    <TextView
+        android:id="@+id/seventh"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/center"
+        android:layout_alignLeft="@id/center"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="42pt"
+        android:gravity="center"
+        android:background="@color/facebook_text"
+        android:text="@string/facebook"
+        android:textColor="@color/main_text"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seventh"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="12dp"
         app:srcCompat="@drawable/facebook" />
+
+    <TextView
+        android:id="@+id/eight"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/center"
+        android:layout_alignLeft="@id/center"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginTop="73pt"
+        android:gravity="center"
+        android:background="@color/google_text"
+        android:text="@string/google"
+        android:textColor="@color/main_text"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="231dp"
+        android:layout_marginLeft="231dp"
+        android:layout_marginTop="260dp"
+        android:textSize="28sp"
+        android:textColor="@color/main_text"
+        android:text="@string/RememberMe" />
 
 
 </RelativeLayout>
