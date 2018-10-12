@@ -200,7 +200,7 @@
         android:layout_marginTop="18pt"
         android:gravity="center"
         android:color="@color/main_background"
-        android:text="@string/HaveAccount"
+        android:text="@string/Have_Account"
         android:textColor="@color/main_text"
         android:textSize="15sp" />
 
@@ -257,6 +257,19 @@
         android:textColor="@color/main_text"
         android:textSize="28sp" />
 
+    <!--Replace this image with Google + image-->
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/eight"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginLeft="159dp"
+        android:layout_marginBottom="14dp"
+        app:srcCompat="@drawable/outline_settings_black_18dp" />
 
 
 </RelativeLayout>

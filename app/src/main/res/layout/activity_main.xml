@@ -21,7 +21,29 @@
         android:textSize="28sp" />
 
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="127dp"
+        android:layout_height="59dp"
+        android:layout_above="@id/center"
+        android:layout_alignLeft="@id/center"
+        android:layout_marginTop="6pt"
+        android:text="@string/Login"
+        tools:background="#77B2ED"
+        tools:textColor="#ffffff" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="127dp"
+        android:layout_height="59dp"
+        android:layout_above="@id/center"
+        android:layout_alignLeft="@id/center"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="6pt"
+        android:text="@string/Skip"
+        tools:background="#77B2ED"
+        tools:textColor="#ffffff" />
 
     <TextView
         android:id="@+id/second"
@@ -35,6 +57,19 @@
         android:textSize="28sp" />
 
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="231dp"
+        android:layout_marginLeft="231dp"
+        android:layout_marginTop="260dp"
+        android:text="@string/Remember_Me"
+        android:textColor="@color/main_text"
+        android:textSize="28sp" />
 
     <TextView
         android:id="@+id/third"
@@ -46,20 +81,6 @@
         android:background="#FDFEFE"
         android:gravity="center"
         android:text="@string/Password"
-        android:textSize="28sp" />
-
-    <TextView
-        android:id="@+id/fourth"
-        android:layout_width="300dp"
-        android:layout_height="50dp"
-        android:layout_above="@id/third"
-        android:layout_alignLeft="@id/third"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="6pt"
-        android:layout_marginBottom="15dp"
-        android:background="#FDFEFE"
-        android:gravity="center"
-        android:text="@string/EmailFull_Name"
         android:textSize="28sp" />
 
     <ImageView
@@ -75,7 +96,7 @@
         app:srcCompat="@drawable/outline_phonelink_lock_black_18dp" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -85,6 +106,20 @@
         android:layout_marginLeft="156dp"
         android:layout_marginTop="203dp"
         app:srcCompat="@drawable/dash" />
+
+    <TextView
+        android:id="@+id/fourth"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/third"
+        android:layout_alignLeft="@id/third"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="6pt"
+        android:layout_marginBottom="15dp"
+        android:background="#FDFEFE"
+        android:gravity="center"
+        android:text="@string/EmailFull_Name"
+        android:textSize="28sp" />
 
 
     <ImageView
@@ -101,7 +136,7 @@
 
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -114,34 +149,7 @@
 
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="127dp"
-        android:layout_height="59dp"
-        android:layout_above="@id/center"
-        android:layout_alignLeft="@id/center"
-        android:layout_marginTop="6pt"
-        android:text="@string/Login"
-        tools:background="#77B2ED"
-        tools:textColor="#ffffff" />
-
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="127dp"
-        android:layout_height="59dp"
-        android:layout_above="@id/center"
-        android:layout_alignLeft="@id/center"
-        android:layout_marginStart="156dp"
-        android:layout_marginLeft="156dp"
-        android:layout_marginTop="6pt"
-        android:text="@string/Skip"
-        tools:background="#77B2ED"
-        tools:textColor="#ffffff" />
-
-
-
-    <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
@@ -152,7 +160,7 @@
         android:textColor="@color/main_text" />
 
     <TextView
-        android:id="@+id/seventh"
+        android:id="@+id/fifth"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_below="@id/center"
@@ -167,10 +175,10 @@
         android:textSize="28sp" />
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/seventh"
+        android:layout_alignTop="@+id/fifth"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_marginStart="158dp"
@@ -179,7 +187,7 @@
         app:srcCompat="@drawable/facebook" />
 
     <TextView
-        android:id="@+id/eight"
+        android:id="@+id/sixth"
         android:layout_width="300dp"
         android:layout_height="50dp"
         android:layout_below="@id/center"
@@ -193,19 +201,20 @@
         android:textColor="@color/main_text"
         android:textSize="28sp" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="200dp"
+
+    <!--Replace this image with Google + image-->
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/sixth"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="231dp"
-        android:layout_marginLeft="231dp"
-        android:layout_marginTop="260dp"
-        android:textSize="28sp"
-        android:textColor="@color/main_text"
-        android:text="@string/RememberMe" />
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/outline_settings_black_18dp" />
 
 
 </RelativeLayout>
